@@ -1,4 +1,4 @@
-
+ipykernel
 streamlit
 boto3
 langchain

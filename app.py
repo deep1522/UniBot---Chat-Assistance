@@ -48,7 +48,7 @@ bedrock_embeddings = BedrockEmbeddings(model_id="amazon.titan-embed-text-v2:0", 
 PINECONE_API_KEY = get_pinecone_api_key()
 pc = PineconeClient(api_key=PINECONE_API_KEY)
 
-INDEX_NAME = "langchain"  # Pinecone index name
+INDEX_NAME = "local"  # Pinecone index name
 
 # --- Google Drive Credentials Setup ---
 def setup_google_credentials():

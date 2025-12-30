@@ -1,0 +1,26 @@
+# Core Frameworks
+streamlit
+langchain
+langgraph
+
+# Cloud Service SDKs and Integrations
+boto3
+pinecone      # Modern client (recommended)
+pinecone               # Older client (kept as requested)
+langchain-community
+langchain-pinecone
+
+# Google Authentication and Drive Access (keeping all specified libraries)
+langchain-google-community
+google-api-python-client
+google-auth-httplib2
+google-auth-oauthlib
+
+# Document Parsing and Dependencies
+unstructured           # Core parsing library
+pdfminer.six           # For PDF parsing
+python-docx            # For Word document parsing
+openpyxl               # For Excel parsing
+
+# Utilities
+python-dotenv
